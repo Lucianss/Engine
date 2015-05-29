@@ -8,7 +8,7 @@
 <meta name='description' content="Nevo Search Engine"/>
 <div class='header'>
 <a class='logo' href='../index.php'><strong>Nevo</strong></a>
-<form method='GET' action='search.php' class='searchForm'>
+<form method='GET' action='../search.php' class='searchForm'>
 <input id='query' type='text' placeholder='Search a website' autocomplete='off' name='q' value="<?php if(isset($_GET['query'])) echo $_GET['q'] ?>"/>
 <button><svg viewBox='0 0 100 100' class='shape-search'><use xlink:href='#shape-search'></use></svg></button>
 </form>
