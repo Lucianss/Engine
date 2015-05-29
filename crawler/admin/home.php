@@ -9,6 +9,8 @@
  <input type="text" name="url[]" placeholder="URL3" size="50"/><br/>
  <input type="text" name="url[]" placeholder="URL4" size="50"/><br/>
 <p align="center"><input type="submit" name="submit" value="Crawl"></p>
+<br/>
+<center><a href="../../.openshift/cron/minutely/crawler.php" style="text-decoration: none">Sync</a></center>
 </form>
 </section>
 </div>
