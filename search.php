@@ -38,9 +38,9 @@
       }
      ?>
       <div class="result">
-       <h3 class="title">
-        <a target="_blank" onmousedown="this.href='url.php?u='+encodeURIComponent(this.getAttribute('data-href'));" data-href="<?php echo $u;?>" href="<?php echo $u;?>"><?php echo strlen($t)>59 ? substr($t, 0, 59)."..":$t;?></a>
-       </h3>
+        <h3 class="title">
+        <a target="_blank" style="text-decoration: none" onmousedown="this.href='url.php?u='+encodeURIComponent(this.getAttribute('data-href'));" data-href="<?php echo $u;?>" href="<?php echo $u;?>"><?php echo strlen($t)>59 ? substr($t, 0, 59)."..":$t;?></a>
+       </h3></font>
        <p class="url" title="<?php echo $u;?>"><?php echo $u;?></p>
        <p class="description"><?php echo $d;?></p>
       </div>
