@@ -1,4 +1,4 @@
-<?php include("inc/functions.php");?>
+<!--<?php include("inc/functions.php");?>-->
 <?php include("inc/header.php");?>
  <body>
   <div class="container">
